@@ -1,4 +1,5 @@
-import { ButtonProps } from "@/interfaces";
+// Update the import path below to the correct relative path if interfaces.ts is in the 'interfaces' folder at the project root:
+import { ButtonProps } from "../../interfaces";
 
 const Button: React.FC<ButtonProps> = ({ title, action }) => {
   return (
